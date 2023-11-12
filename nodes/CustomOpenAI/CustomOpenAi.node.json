@@ -1,5 +1,5 @@
 {
-	"node": "n8n-nodes-customOpenAI",
+	"node": "n8n-nodes-customOpenAi",
 	"nodeVersion": "1.0",
 	"codexVersion": "1.0",
 	"categories": ["Utility"],

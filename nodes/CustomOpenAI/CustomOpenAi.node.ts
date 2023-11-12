@@ -2,10 +2,10 @@ import type { INodeType, INodeTypeDescription } from 'n8n-workflow';
 import { imageFields, imageOperations } from './ImageDescription';
 import { chatFields, chatOperations } from './ChatDescription';
 
-export class CustomOpenAI implements INodeType {
+export class CustomOpenAi implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'CustomOpenAI',
-		name: 'customOpenAI',
+		displayName: 'CustomOpenAi',
+		name: 'customOpenAi',
 		icon: 'file:openAi.svg',
 		group: ['transform'],
 		version: 1,
@@ -18,7 +18,7 @@ export class CustomOpenAI implements INodeType {
 		outputs: ['main'],
 		credentials: [
 			{
-				name: 'customOpenAIAPI',
+				name: 'customOpenAiApi',
 				required: true,
 			},
 		],

@@ -16,7 +16,7 @@ export const imageOperations: INodeProperties[] = [
 			{
 				name: 'Create',
 				value: 'create',
-				action: 'Create an Image',
+				action: 'Create an image',
 				description: 'Create an image for a given text',
 				routing: {
 					request: {

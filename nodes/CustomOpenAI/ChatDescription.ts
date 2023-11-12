@@ -16,7 +16,7 @@ export const chatOperations: INodeProperties[] = [
 			{
 				name: 'Complete',
 				value: 'complete',
-				action: 'Create a Completion',
+				action: 'Create a completion',
 				description: 'Create one or more completions for a given text',
 				routing: {
 					request: {
@@ -89,7 +89,7 @@ const completeOperations: INodeProperties[] = [
 				property: 'model',
 			},
 		},
-		default: 'gpt-3.5-turbo',
+		default: '',
 	},
 	{
 		displayName: 'Prompt',
