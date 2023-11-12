@@ -6,7 +6,7 @@ export class CustomOpenAi implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'CustomOpenAi',
 		name: 'customOpenAi',
-		icon: 'file:openAi.svg',
+		icon: 'file:openai.svg',
 		group: ['transform'],
 		version: 1,
 		subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
