@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-andie",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "n8n nodes for myself",
   "main": "index.js",
   "keywords": [
@@ -28,10 +28,12 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "dist/credentials/OneonefiveApi.credentials.js"
+      "dist/credentials/OneonefiveApi.credentials.js",
+      "dist/credentials/CustomOpenAiApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/Oneonefive/Oneonefive.node.js"
+      "dist/nodes/Oneonefive/Oneonefive.node.js",
+      "dist/nodes/CustomOpenAi/CustomOpenAi.node.js"
     ]
   },
   "license": "MIT",
