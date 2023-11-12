@@ -5,9 +5,9 @@ import type {
 	INodeProperties,
 } from 'n8n-workflow';
 
-export class CustomOpenAiAPIApi implements ICredentialType {
+export class CustomOpenAiApi implements ICredentialType {
 	name = 'customOpenAiApi';
-	displayName = 'CustomOpenAiAPI';
+	displayName = 'Custom OpenAi API';
 	properties: INodeProperties[] = [
 		{
 			displayName: 'Base URL',
